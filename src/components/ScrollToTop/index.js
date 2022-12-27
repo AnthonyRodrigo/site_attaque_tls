@@ -1,7 +1,6 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
 import { BiArrowFromBottom } from 'react-icons/bi'
-import { MdOpacity } from 'react-icons/md';
 
 const ScrollToTop = props => {
     const [isVisible,setIsVisible] = useState(false);

@@ -34,22 +34,22 @@ const Footer = props => {
                             before:-bottom-2 before:left-0 before:bg-gradient-to-tl from-blue-200 to-bgFooter transition-all ease-in-out
                             duration-100'>Navigation</h4>
                         <ul className='text-white text-base py-6'>
-                        <Link to='/search'>
+                        <Link to='/introduction'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Introduction</motion.li>
                         </Link>    
-                        <Link to='/droits'>
+                        <Link to='/ssl-striping'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Attaque SSL Striping</motion.li>
                         </Link>
-                        <Link to='/politique-de-confidentialite'>
+                        <Link to='/hsts-hijacking'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Attaque HSTS Hijacking</motion.li>
                         </Link>    
-                        <Link to='/contacter'>  
+                        <Link to='/de-nos-jours'>  
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Portée de l’attaque aujourd’hui </motion.li>
                             </Link>
-                        <Link to='/apropos'>
+                        <Link to='/detection-mitigation'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Détection/Mitigation</motion.li>
                             </Link> 
-                            <Link to='/apropos'>
+                            <Link to='/bibliographie'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Bibliographie</motion.li>
                             </Link> 
                         </ul>
@@ -79,7 +79,7 @@ const Footer = props => {
                     </div>
                 </div>
                 <div className='text-center text-xl text-white mb-2 mt-3 md:mr-12'>
-                    <a href="" target="_blank" className='w-10 h-10 rounded-full bg-white hover:bg-colorGris  inline-block items-center justify-center cursor-pointer hover:shadow-md mx-3 ' > <BsGithub className='ml-2.5 text-bgFooter mt-2.5'/></a>
+                    <a href="https://github.com/AnthonyRodrigo/site_attaque_tls" target="_blank" className='w-10 h-10 rounded-full bg-white hover:bg-colorGris  inline-block items-center justify-center cursor-pointer hover:shadow-md mx-3 ' > <BsGithub className='ml-2.5 text-bgFooter mt-2.5'/></a>
                 </div>
             </div>
         </div>

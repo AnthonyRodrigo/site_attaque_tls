@@ -1,7 +1,5 @@
 import React from 'react'
 import Bg from '../../img/cadenas.jpg'
-import { Link} from 'react-router-dom'
-import {BsFillTelephoneFill} from 'react-icons/bs'
 import { motion } from "framer-motion";
 import {RiSecurePaymentLine} from 'react-icons/ri'
 import {TbTruckDelivery} from 'react-icons/tb'
@@ -44,7 +42,7 @@ const HomeContainer = props => {
               </motion.div>
           </div>
       </motion.div>
-      
+
       <motion.div 
         initial={{ opacity: 0, x: '100px' }}
         animate={{ opacity: 1, x: 0 }}
