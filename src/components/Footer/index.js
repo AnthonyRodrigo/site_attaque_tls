@@ -25,7 +25,7 @@ const Footer = props => {
                             <li className='pb-4 flex items-center'><a className='flex' href="anthony.rodrigo@etu.inp-n7.f"><GrMail  className='mr-3 text-2xl cursor-pointer'/>anthony.rodrigo@etu.inp-n7.fr</a></li> 
                             <li className='pb-4 flex items-center'><a className='flex' href="louis.lolive@etu.inp-n7.fr"><GrMail  className='mr-3 text-2xl cursor-pointer'/>louis.lolive@etu.inp-n7.fr</a></li> 
                             <li className='pb-4 flex items-center'><a className='flex' href="jules.boyer@etu.inp-n7.fr"><GrMail  className='mr-3 text-2xl cursor-pointer'/>jules.boyer@etu.inp-n7.fr</a></li> 
-                            <li className='pb-4 flex items-center'><a className='flex' href="remy.bonrepaux@etu.inp-n7.fr"><GrMail  className='mr-3 text-2xl cursor-pointer'/>remy.bonrepaux@etu.inp-n7.fr</a></li> 
+                            <li className='pb-4 flex items-center'><a className='flex' href="remi.bonrepaux@etu.inp-n7.fr"><GrMail  className='mr-3 text-2xl cursor-pointer'/>remi.bonrepaux@etu.inp-n7.fr</a></li> 
                         </ul>
                     </div>
                     <div className='mb-5'>
@@ -60,10 +60,10 @@ const Footer = props => {
                             before:-bottom-2 before:left-0 before:bg-gradient-to-tl from-blue-200 to-bgFooter transition-all ease-in-out
                             duration-100'>Notre équipe</h4>
                         <ul className='text-white text-base py-6'>
-                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/anthony-rodrigo/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Rémy Bonrepaux</a></li>
-                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/anthony-rodrigo/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Louis Lolive</a></li>
-                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/anthony-rodrigo/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Tom Heurtebise</a></li>
-                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/anthony-rodrigo/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Jules Boyer</a></li>
+                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/r%C3%A9mi-bonrepaux-41569219b/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Rémi Bonrepaux</a></li>
+                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/louis-lolive-a43a291a2" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Louis Lolive</a></li>
+                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/tom-heurtebise-tls-sec/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Tom Heurtebise</a></li>
+                            <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/jules-boyer-25a4171b8" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Jules Boyer</a></li>
                             <li className='pb-6 flex items-center'><a className='text-base ml-1 sm:ml-2 flex text-white font-semibold hover:text-bgFooter' href="https://www.linkedin.com/in/anthony-rodrigo/" target="_blank"> <BsLinkedin className='text-2xl flex mr-1 sm:mr-2'/> Anthony Rodrigo</a></li>
                         </ul>
                     </div>
