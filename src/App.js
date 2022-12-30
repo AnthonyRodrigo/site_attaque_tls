@@ -9,7 +9,6 @@ import Homepage from './pages/Homepage';
 import Introduction from './pages/Introduction';
 import SSLStriping from './pages/SSLStriping';
 import HstsHijacking from './pages/HstsHijacking';
-import Now from './pages/Now';
 import DetectionMitigation from './pages/DetectionMitigation';
 import Bibliographie from './pages/Bibliographie';
 
@@ -44,12 +43,6 @@ const App = props => {
             <HomepageLayout >
               { ScrollToTopAutomatic()}
               <HstsHijacking/>
-            </HomepageLayout>
-          )} />
-          <Route path="/de-nos-jours" render={() => (
-            <HomepageLayout >
-              { ScrollToTopAutomatic()}
-              <Now/>
             </HomepageLayout>
           )} />
           <Route path="/detection-mitigation" render={() => (

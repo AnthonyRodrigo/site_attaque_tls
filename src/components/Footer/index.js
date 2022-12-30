@@ -1,7 +1,7 @@
-import {React,useState} from 'react'
+import {React} from 'react'
 import {MdChevronRight} from 'react-icons/md'
 import { motion } from "framer-motion";
-import {BsFacebook, BsInstagram, BsGithub, BsLinkedin} from 'react-icons/bs'
+import { BsGithub, BsLinkedin} from 'react-icons/bs'
 import {GrMail} from 'react-icons/gr'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
@@ -43,9 +43,6 @@ const Footer = props => {
                         <Link to='/hsts-hijacking'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Attaque HSTS Hijacking</motion.li>
                         </Link>    
-                        <Link to='/de-nos-jours'>  
-                            <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Portée de l’attaque aujourd’hui </motion.li>
-                            </Link>
                         <Link to='/detection-mitigation'>
                             <motion.li whileHover={{ scale: 1.05 }} className='pb-4 hover:text-bgFooter duration-100 transition-all ease-in-out cursor-pointer flex items-center'><MdChevronRight/>Détection/Mitigation</motion.li>
                             </Link> 

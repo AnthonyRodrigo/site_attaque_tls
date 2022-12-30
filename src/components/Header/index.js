@@ -39,10 +39,6 @@ const Header = props => {
                     <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
                     onClick={() => setIsMenu(false)}>Attaque HSTS Hijacking</li>
                     </Link>
-                    <Link to='/de-nos-jours'>
-                    <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
-                    onClick={() => setIsMenu(false)}>Aujourd’hui</li>
-                    </Link>
                     <Link to='/detection-mitigation'>
                     <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
                     onClick={() => setIsMenu(false)}>Détection/Mitigation</li>
@@ -94,10 +90,6 @@ const Header = props => {
                                 <Link to='/hsts-hijacking'>
                                 <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
                                 onClick={() => setIsMenu(false)}>Attaque HSTS Hijacking</li>
-                                </Link>
-                                <Link to='/de-nos-jours'>
-                                <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
-                                onClick={() => setIsMenu(false)}>Aujourd’hui</li>
                                 </Link>
                                 <Link to='/detection-mitigation'>
                                 <li className='text-base text-bgFooter hover:text-bgFooterLow duration-100 transition-all ease-in-out cursor-pointer'
